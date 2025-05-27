@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "src/app/goals/InputForm.jsx", "src/components/Wealthometer/new/index.jsx","src/types/cashfree-js.d.ts", "src/app/myaccount/transact/mutualfunds/page.jsx", "src/app/myaccount/reports/SelectMenu.jsx", "src/app/resources/school-of-finance/page.tsx", ".next/types/app/resources/faq/page.tsx", "src/components/financial-glossary/FinancialGlossary.jsx", "src/components/financial-glossary/FinancialGlossarySelectedTerm.jsx", "src/components/financial-glossary/FinancialGlossaryTerm.jsx", ".next/types/app/demo/expenses/page.tsx", ".next/types/app/demo/investments/portfolio-analyser/page.tsx", "src/components/MyAccount/MutualFundsAnalyser/components/Doughnut.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ],
+}

@@ -1,0 +1,7 @@
+User-agen: ChatGPT-User
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.wealthup.me/sitemap.xml

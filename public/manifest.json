@@ -1,0 +1,21 @@
+{
+  "name": "Wealthup.me",
+  "short_name": "Wealthup.me finance app",
+  "display": "minimal-ui",
+  "background_color": "#ffffff",
+  "theme_color": "#fd4d4d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/wealthup.jpg",
+      "type": "image/jpg",
+      "sizes": "200x200"
+    },
+    {
+      "src": "/img/wealthup.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "splash_pages": null
+}
